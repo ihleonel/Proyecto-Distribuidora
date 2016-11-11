@@ -1,0 +1,1244 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"request"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"han",
+				"habitaciones"
+			],
+			[
+				"time",
+				"timedelta"
+			],
+			[
+				"reser",
+				"reserva"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"ca",
+				"cant_camas"
+			],
+			[
+				"for",
+				"formulario"
+			],
+			[
+				"Hue",
+				"HuespedForm"
+			],
+			[
+				"lis",
+				"listado_habitaciones"
+			],
+			[
+				"hab",
+				"habitaciones"
+			],
+			[
+				"E",
+				"EmptyPage"
+			],
+			[
+				"pagina",
+				"paginador"
+			],
+			[
+				"dia",
+				"dia"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"ape",
+				"ape"
+			],
+			[
+				"dato",
+				"dato"
+			],
+			[
+				"bus",
+				"busquedaAJAX"
+			],
+			[
+				"ae",
+				"apellido"
+			],
+			[
+				"buscar",
+				"buscar_huesped_ajax"
+			],
+			[
+				"regis",
+				"registrar_reserva"
+			],
+			[
+				"hue",
+				"huesped"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"cont",
+				"cont"
+			],
+			[
+				"C",
+				"Cama"
+			],
+			[
+				"camas",
+				"camas"
+			],
+			[
+				"cama",
+				"cama"
+			],
+			[
+				"cam",
+				"camas_en_reserva"
+			],
+			[
+				"context",
+				"contexto"
+			],
+			[
+				"Cli",
+				"Cliente"
+			],
+			[
+				"cliete",
+				"clientes"
+			],
+			[
+				"Cas",
+				"CamasEnReserva"
+			],
+			[
+				"Ca",
+				"CancelarReserva"
+			],
+			[
+				"id",
+				"id_reserva"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"end",
+				"endfor"
+			],
+			[
+				"tota",
+				"totalCamas"
+			],
+			[
+				"Cu",
+				"CustomModelForm"
+			],
+			[
+				"cus",
+				"CustomInlineFormset"
+			],
+			[
+				"Cus",
+				"CustomInlineAdmin"
+			],
+			[
+				"Custo",
+				"CustomModelForm"
+			],
+			[
+				"Base",
+				"BaseInlineFormSet"
+			],
+			[
+				"ini",
+				"initial_extra"
+			],
+			[
+				"Ba",
+				"BaseInlineFormSet"
+			],
+			[
+				"Choi",
+				"ChioceAdminInline"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"tot",
+				"totalIngredientes"
+			],
+			[
+				"Camas",
+				"CamasEnReserva"
+			],
+			[
+				"btn",
+				"btn-block"
+			],
+			[
+				"ha",
+				"habs"
+			],
+			[
+				"tipo",
+				"tipos_habitacion"
+			],
+			[
+				"m",
+				"method"
+			],
+			[
+				"eta",
+				"etapa_dos"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"Pro",
+				"ProductoForm"
+			],
+			[
+				"Cliete",
+				"ClienteForm"
+			],
+			[
+				"pro",
+				"productos"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"cams",
+				"camas"
+			],
+			[
+				"f_",
+				"f_fin"
+			],
+			[
+				"t_",
+				"t_hab"
+			],
+			[
+				"cma",
+				"camas_disponibles"
+			],
+			[
+				"ti",
+				"tipos_habitacion"
+			],
+			[
+				"Tipo",
+				"TipoCama"
+			],
+			[
+				"res",
+				"resultado"
+			],
+			[
+				"huesped",
+				"huesped"
+			],
+			[
+				"btn-",
+				"btn-sm"
+			],
+			[
+				"cas",
+				"camasFormset"
+			],
+			[
+				"Res",
+				"FormReserva"
+			],
+			[
+				"Post",
+				"POST"
+			],
+			[
+				"Re",
+				"Reserva"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ins",
+				"instruccionFormset"
+			],
+			[
+				"ingre",
+				"ingredienteFormset"
+			],
+			[
+				"ingredinte",
+				"ingredienteFormset"
+			],
+			[
+				"regi",
+				"registro_edicion"
+			],
+			[
+				"clon",
+				"clon_html"
+			],
+			[
+				"repl",
+				"replaceAll"
+			],
+			[
+				"total",
+				"totalDetalles"
+			],
+			[
+				"factura",
+				"factura_edicion"
+			],
+			[
+				"facu",
+				"factura_edicion"
+			],
+			[
+				"Deta",
+				"DetalleFormSet"
+			],
+			[
+				"De",
+				"DetalleFormSet"
+			],
+			[
+				"Fac",
+				"FacturaForm"
+			],
+			[
+				"fac",
+				"factura_id"
+			],
+			[
+				"c",
+				"ctx"
+			],
+			[
+				"urls",
+				"urls"
+			],
+			[
+				"Ce",
+				"CreateView"
+			],
+			[
+				"Li",
+				"ListViewCliente"
+			],
+			[
+				"fecha_",
+				"fecha_fin"
+			],
+			[
+				"fe",
+				"fecha_inicio"
+			],
+			[
+				"fecha_che",
+				"fecha_checkout"
+			],
+			[
+				"fecha",
+				"fecha_confirmacion"
+			],
+			[
+				"exi",
+				"EXISTS"
+			],
+			[
+				"fo",
+				"form2"
+			],
+			[
+				"se",
+				"second_form_class"
+			],
+			[
+				"model",
+				"model"
+			],
+			[
+				"List",
+				"ListView"
+			],
+			[
+				"DE",
+				"DetailView"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"Clie",
+				"ClienteAdmin"
+			],
+			[
+				"li",
+				"longitud"
+			],
+			[
+				"listado_",
+				"listado_clientes"
+			],
+			[
+				"admin",
+				"administrador"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"Admi",
+				"AdminFactura"
+			],
+			[
+				"Admin",
+				"AdminDetalleFactura"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"prod",
+				"Producto"
+			],
+			[
+				"FAr",
+				"FacturaForm"
+			],
+			[
+				"Factu",
+				"FacturaForm"
+			],
+			[
+				"Clite",
+				"ClienteForm"
+			],
+			[
+				"Cre",
+				"CreateView"
+			],
+			[
+				"Cliente",
+				"Cliente"
+			],
+			[
+				"Pr",
+				"ProductoForm"
+			],
+			[
+				"fr",
+				"forms"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"wh",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/disponibilidad.html",
+			"settings":
+			{
+				"buffer_size": 5742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/aplicaciones/reserva/views.py",
+			"settings":
+			{
+				"buffer_size": 9259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/estaticos/css/estilos.css",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/leonel/Desktop/HOSTEL/aplicaciones/reserva/views.py",
+			"settings":
+			{
+				"buffer_size": 12481,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/registrar_reserva.html",
+			"settings":
+			{
+				"buffer_size": 15234,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/leonel/Desktop/HOSTEL/plantillas/reserva/registrar_reserva.html",
+			"settings":
+			{
+				"buffer_size": 15198,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/aplicaciones/huesped/models.py",
+			"settings":
+			{
+				"buffer_size": 703,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/detalle_reserva.html",
+			"settings":
+			{
+				"buffer_size": 4854,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/reservas.html",
+			"settings":
+			{
+				"buffer_size": 4678,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Repositorio Proyecto Hostal/aplicaciones/reserva/urls.py",
+			"settings":
+			{
+				"buffer_size": 1210,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"SublimeREPL: Python"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 223.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Repositorio Proyecto Hostal/plantillas/reserva/reservas.html",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/huesped/views.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/huesped/forms.py",
+		"/C/Users/leonel/Desktop/prueba.py",
+		"/C/Repositorio Proyecto Hostal/plantillas/reserva/detalle_reserva.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/huesped/huesped_crear.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/reserva/registrar_reserva.html",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/reserva/forms.py",
+		"/C/Repositorio Proyecto Hostal/plantillas/reserva/disponibilidad.html",
+		"/C/Users/leonel/Desktop/prueba-fechas.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/reserva/views.py",
+		"/C/Users/leonel/tienda/aplicaciones/clientes/views.py",
+		"/C/Users/leonel/tienda/plantillas/cliente/listado_clientes.html",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/reserva/urls.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/Proyecto Hostal/aplicaciones/reserva/urls.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/Proyecto Hostal/aplicaciones/reserva/views.py",
+		"/C/Users/leonel/Desktop/registrar_reserva.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/reserva/buscar_huesped.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/base/base_admin.html",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/Proyecto Hostal/plantillas/reserva/reservas.html",
+		"/C/Users/leonel/Desktop/Mis Documentos/pruebas con django/tienda/aplicaciones/administrador/views.py",
+		"/C/Users/leonel/Desktop/Mis Documentos/pruebas con django/tienda/aplicaciones/clientes/views.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/huesped/models.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/habitacion/urls_app/url_habitacion.py",
+		"/C/Repositorio Proyecto Hostal/ProyectoHostel/urls.py",
+		"/C/Repositorio Proyecto Hostal/estaticos/css/estilos.css",
+		"/C/Users/leonel/tienda/estaticos/css/estilos.css",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/reserva/models.py",
+		"/C/Users/leonel/Desktop/prueba.html",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/habitacion/models.py",
+		"/C/Users/leonel/Desktop/ejemplo.html",
+		"/C/Users/leonel/tienda/plantillas/cliente/etapa_uno.html",
+		"/C/Users/leonel/tienda/aplicaciones/clientes/urls.py",
+		"/C/Users/leonel/tienda/aplicaciones/clientes/forms.py",
+		"/C/Users/leonel/tienda/aplicaciones/clientes/admin.py",
+		"/C/Users/leonel/tienda/aplicaciones/clientes/models.py",
+		"/C/Users/leonel/Desktop/querydict.txt",
+		"/D/Repositorio Proyecto Hostal (20-10-16)/Proyecto Hostal/plantillas/reserva/disponibilidad.html",
+		"/C/Users/leonel/tienda/plantillas/cliente/etapa_dos.html",
+		"/C/Users/leonel/tienda/tienda/urls.py",
+		"/C/Users/leonel/tienda/aplicaciones/productos/urls.py",
+		"/C/Users/leonel/tienda/plantillas/producto/registrar_producto.html",
+		"/C/Users/leonel/tienda/aplicaciones/productos/views.py",
+		"/C/Users/leonel/tienda/plantillas/producto/listado_productos.html",
+		"/C/Users/leonel/tienda/plantillas/cliente/agregar_cliente.html",
+		"/C/Users/leonel/tienda/tienda/settings.py",
+		"/C/Users/leonel/tienda/aplicaciones/productos/models.py",
+		"/C/Users/leonel/tienda/aplicaciones/productos/forms.py",
+		"/C/Users/leonel/tienda/aplicaciones/facturas/views.py",
+		"/C/Users/leonel/tienda/plantillas/base/base_admin.html",
+		"/C/Users/leonel/Desktop/Mis Documentos/pruebas con django/encabezado-detalle/plantillas/recetas/registro-edicion.html",
+		"/C/Users/leonel/Downloads/inicio.py",
+		"/C/Repositorio Proyecto Hostal/hosteldb.sqlite3",
+		"/C/Users/leonel/Desktop/Mis Documentos/pruebas con django/encabezado-detalle/aplicaciones/recetas/views.py",
+		"/C/Users/leonel/tienda/aplicaciones/recetas/views.py",
+		"/C/Users/leonel/tienda/plantillas/recetas/registro-edicion.html",
+		"/C/Users/leonel/tienda/aplicaciones/recetas/forms.py",
+		"/C/Users/leonel/tienda/aplicaciones/recetas/models.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/reserva/migrations/0001_initial.py",
+		"/C/Repositorio Proyecto Hostal/plantillas/habitacion/cama_list.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/huesped/huesped_listar.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/empleado/empleado_listar.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/empleado/empleado_form.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/empleado/empleado_crear.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/habitacion/cama_form.html",
+		"/C/Users/leonel/Desktop/index.html",
+		"/C/Users/leonel/tienda/plantillas/recetas/recetas.html",
+		"/C/Users/leonel/tienda/aplicaciones/recetas/urls.py",
+		"/C/Users/leonel/tienda/aplicaciones/facturas/urls.py",
+		"/C/Users/leonel/tienda/plantillas/factura/facturas.html",
+		"/C/Users/leonel/tienda/plantillas/factura/factura-edicion.html",
+		"/C/Users/leonel/tienda/aplicaciones/facturas/forms.py",
+		"/C/Users/leonel/tienda/aplicaciones/facturas/models.py",
+		"/C/Users/leonel/tienda/aplicaciones/administrador/urls.py",
+		"/C/Users/leonel/tienda/aplicaciones/administrador/views.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/hostel/plantillas/base/base_admin.html",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/hostel/ProyectoHostel/urls.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/Sistema de Administracion de Hostel/plantillas/base/base_admin.html",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/Sistema de Administracion de Hostel/ProyectoHostel/urls.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/hostel/aplicaciones/empleado/models.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/Sistema de Administracion de Hostel/ProyectoHostel/settings.py",
+		"/C/Users/leonel/Desktop/Desarrollo agil de sotware/hostel/ProyectoHostel/settings.py",
+		"/C/Users/leonel/Desktop/nacionalidad_crear.html",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/static/admin/js/change_form.js",
+		"/C/Users/leonel/Desktop/proxl-plus-modelos/MySQLMovimientosClientes.sql",
+		"/C/Users/leonel/Desktop/proxl-caja/controladores/infoCliente.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/reserva/admin.py",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/huesped/form.py",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/static/admin/css/widgets.css",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/static/admin/js/popup_response.js",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/404.html",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/habitacion/urls.py",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/submit_line.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/search_form.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/500.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/related_widget_wrapper.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/prepopulated_fields_js.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/popup_response.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/pagination.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/object_history.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/login.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/invalid_setup.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/index.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/filter.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/delete_selected_confirmation.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/delete_confirmation.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/base_site.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/date_hierarchy.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/change_list_results.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/change_list.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/change_form.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/base.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/app_index.html",
+		"/C/Repositorio Proyecto Hostal/plantillas/admin/actions.html",
+		"/C/Repositorio Proyecto Hostal/aplicaciones/habitacion/admin.py",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/templates/admin/index.html",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/templates/admin/base.html",
+		"/C/Python27/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html",
+		"/C/Users/leonel/Desktop/pruba_clase.py",
+		"/C/Repositorio Proyecto Hostal/ProyectoHostel/settings.py",
+		"/C/Users/leonel/tienda/aplicaciones/facturas/admin.py",
+		"/C/Users/leonel/tienda/estaticos/index.html",
+		"/C/Users/leonel/tienda/estaticos/css/bootstrap.css",
+		"/C/Users/leonel/tienda/estaticos/js/jquery.js",
+		"/C/Users/leonel/tienda/plantillas/base/base_site.html",
+		"/C/Users/leonel/tienda/aplicaciones/productos/admin.py",
+		"/C/Users/leonel/tienda/aplicaciones/__init__.py"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{% if hab.tipo == \"Privada\" %}\n					$(\".{{hab.numero}}-{{hab.tipo|upper}}\").click(function(){\n						//$(\".{{hab.numero}}-{{hab.tipo|upper}}\").each('click', function(){\n							console.log(\"this.val()\");\n						//});\n					});\n				{",
+			"success",
+			"object_list",
+			"object",
+			"()",
+			"	\n",
+			"id_ingrediente_set",
+			"template/ingrediente",
+			"btnIngrediente",
+			"formset-ingredientes",
+			"12",
+			"\">\n",
+			"}}:</",
+			"button",
+			"ui-datepicker-current",
+			"button.ui-datepicker-current",
+			";}",
+			"SECURE_SSL_REDIRECT",
+			"join us",
+			" {%",
+			"class AdminMarca(admin.ModelAdmin):\n	list_display = ['nombre', 'descripcion', 'fecha_alta']\n	class Meta:\n		model = Marca",
+			"datos",
+			"self.dia",
+			"instancia",
+			"job_server",
+			"pp",
+			"Almacenes",
+			"Clientes",
+			"Lineas",
+			"pp",
+			"lineas",
+			"]\n",
+			"# Definición de Variables.\nprint 'Bounds'\nfor i in range(CantClientes):\n	for j in range(CantAlmacenes):\n		print 'X%s_%s >= 0' % (i+1, j+1)\n\nprint 'Binary'\n\nfor j in range(CantAlmacenes):\n	print 'Y%s' % (j+1)\n\nprint 'END'",
+			"X",
+			"Subject",
+			"22",
+			"21",
+			"12",
+			"11",
+			"info",
+			"coor",
+			"()",
+			";;",
+			"procedure",
+			"art_entregado = 1",
+			"art_entregado = 0",
+			"articulo",
+			"Codigos",
+			"count",
+			"1",
+			"2015",
+			"and",
+			"where",
+			"from",
+			"select",
+			"DATE_FORMAT(cam_inicio, '%d-%m-%Y')",
+			"`"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"reservas",
+			"reserva",
+			"template/camas",
+			"btnCamas",
+			"formset-camas",
+			"self.datos",
+			"self.instancia",
+			"self._almacenes",
+			"self._clientes",
+			"_lineas",
+			"self.Lineas",
+			"4",
+			"3",
+			"2",
+			"1",
+			"self.info",
+			"a",
+			"$",
+			"art_entregado <> '0000/00/00'",
+			"art_entregado = '0000/00/00'",
+			"infoCli",
+			"Articulos",
+			"COUNT",
+			"num",
+			"anio",
+			"AND",
+			"WHERE",
+			"FROM",
+			"SELECT",
+			"cam_inicio",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/disponibilidad.html",
+					"settings":
+					{
+						"buffer_size": 5742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2873.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Repositorio Proyecto Hostal/aplicaciones/reserva/views.py",
+					"settings":
+					{
+						"buffer_size": 9259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8429,
+								8429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6313.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Repositorio Proyecto Hostal/estaticos/css/estilos.css",
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/leonel/Desktop/HOSTEL/aplicaciones/reserva/views.py",
+					"settings":
+					{
+						"buffer_size": 12481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1969,
+								1969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6804.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/registrar_reserva.html",
+					"settings":
+					{
+						"buffer_size": 15234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10722,
+								10722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2465.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/leonel/Desktop/HOSTEL/plantillas/reserva/registrar_reserva.html",
+					"settings":
+					{
+						"buffer_size": 15198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10764,
+								10764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8239.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Repositorio Proyecto Hostal/aplicaciones/huesped/models.py",
+					"settings":
+					{
+						"buffer_size": 703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/detalle_reserva.html",
+					"settings":
+					{
+						"buffer_size": 4854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1923,
+								1923
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 70.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Repositorio Proyecto Hostal/plantillas/reserva/reservas.html",
+					"settings":
+					{
+						"buffer_size": 4678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3558,
+								3558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2268.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Repositorio Proyecto Hostal/aplicaciones/reserva/urls.py",
+					"settings":
+					{
+						"buffer_size": 1210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 278.0
+	},
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"vi",
+				"kiosco/appkiosco/views.py"
+			],
+			[
+				"models",
+				"kiosco/appkiosco/models.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}
