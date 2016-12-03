@@ -135,7 +135,7 @@ class FrameInformacion ( wx.Dialog ):
 		
 		gbSizer2.Add( sbSizer2, wx.GBPosition( 2, 0 ), wx.GBSpan( 1, 2 ), wx.EXPAND|wx.TOP|wx.BOTTOM|wx.LEFT, 5 )
 		
-		rb_rebotesChoices = [ u"Ninguno", u"A", u"S/B", u"D/E", u"ADC", u"Otros" ]
+		rb_rebotesChoices = [ u"Ninguno", u"A", u"S/B", u"R/D", u"ADC", u"Otros" ]
 		self.rb_rebotes = wx.RadioBox( self, wx.ID_ANY, u"Rebote", wx.DefaultPosition, wx.DefaultSize, rb_rebotesChoices, 1, wx.RA_SPECIFY_ROWS )
 		self.rb_rebotes.SetSelection( 0 )
 		gbSizer2.Add( self.rb_rebotes, wx.GBPosition( 3, 0 ), wx.GBSpan( 1, 2 ), wx.ALL, 5 )

@@ -98,7 +98,7 @@ class FrameCajaInfoCliente ( wx.Dialog ):
 		
 		gbSizer2.Add( self.cb_entregado, wx.GBPosition( 5, 0 ), wx.GBSpan( 1, 1 ), wx.ALL|wx.ALIGN_CENTER_VERTICAL, 5 )
 		
-		rb_rebotesChoices = [ u"Ninguno", u"A", u"S/B", u"D/E", u"ADC", u"Otros" ]
+		rb_rebotesChoices = [ u"Ninguno", u"A", u"S/B", u"R/D", u"ADC", u"Otros" ]
 		self.rb_rebotes = wx.RadioBox( self, wx.ID_ANY, u"Rebote", wx.DefaultPosition, wx.DefaultSize, rb_rebotesChoices, 1, wx.RA_SPECIFY_ROWS )
 		self.rb_rebotes.SetSelection( 0 )
 		self.rb_rebotes.SetFont( wx.Font( wx.NORMAL_FONT.GetPointSize(), 70, 90, 90, False, wx.EmptyString ) )

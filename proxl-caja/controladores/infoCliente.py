@@ -3,9 +3,7 @@ import wx
 from datetime import datetime
 from vistas.frame_caja_info_cliente import FrameCajaInfoCliente
 
-from modelos.modelMovimientos import ModeloMovimientos
 from modelos.modelMovimientoClientes import ModeloMovimientoClientes
-from modelos.modelArticulos import ModeloArticulos
 
 from controladores.modificarCliente import ControladorModificarCliente
 
@@ -13,8 +11,6 @@ from validadores.validarOpCaja import Monto
 
 class ControladorInfoCliente:
 
-	mdlArt = ModeloArticulos()
-	mdlMov = ModeloMovimientos()
 	mdlMovCli = ModeloMovimientoClientes()
 
 	def __init__(self, parent, infoCaja, infoCli):
@@ -91,7 +87,7 @@ class ControladorInfoCliente:
 			self.frame.rb_rebotes.SetSelection(1)
 		elif self.infoCli['rebote'] == "S/B":
 			self.frame.rb_rebotes.SetSelection(2)
-		elif self.infoCli['rebote'] == "D/E":
+		elif self.infoCli['rebote'] == "R/D":
 			self.frame.rb_rebotes.SetSelection(3)
 		elif self.infoCli['rebote'] == "ADC":
 			self.frame.rb_rebotes.SetSelection(4)
@@ -106,79 +102,70 @@ class ControladorInfoCliente:
 
 
 	def Aceptar(self):
-		self.mdlArt.cam_anio = self.infoCli['anio']
-		self.mdlArt.cam_num = self.infoCli['num']
-		self.mdlArt.lis_numero = self.infoCli['lis']
-		self.mdlArt.cli_codigo = self.infoCli['codigo']
-		self.mdlArt.deuda = self.infoCli['deuda']
-		self.mdlArt.camp = self.infoCli['campania']
+		
+		anio = self.infoCli['anio']
+		num = self.infoCli['num']
+		cod = self.infoCli['codigo']
+
+		self.mdlMovCli.mcam_anio = anio
+		self.mdlMovCli.mcam_num = num
+		self.mdlMovCli.mcli_codigo = cod
+
 		if self.frame.cb_entregado.GetValue():
-			self.mdlArt.entregado = datetime.today().strftime("%Y-%m-%d")
-			self.mdlArt.medio_entr = 1 #Medio de entrega por caja.
+			fentr = datetime.today().strftime("%Y-%m-%d")
+			mentr = 1
 		else:
-			self.mdlArt.entregado = '0000-00-00'
+			fentr = '0000-00-00'
+			mentr = 0
 			
 		if self.infoCli['deuda'] != 0:
 			if self.frame.rb_efectivo.GetValue():
-				self.mdlArt.forma_pago = 1
+				fpago = 1
 			elif self.frame.rb_boleta.GetValue():
-				self.mdlArt.forma_pago = 2
+				fpago = 2
 			elif self.frame.rb_oficina.GetValue():
-				self.mdlArt.forma_pago = 3
+				fpago = 3
 		else:
-			self.mdlArt.forma_pago = 1
+			fpago = 1
 
 		if self.frame.rb_rebotes.GetSelection() == 0:
-			self.mdlArt.rebote = "Ninguno"
+			reb = "Ninguno"
 		elif self.frame.rb_rebotes.GetSelection() == 1:
-			self.mdlArt.rebote = "A"
+			reb = "A"
 		elif self.frame.rb_rebotes.GetSelection() == 2:
-			self.mdlArt.rebote = "S/B"
+			reb = "S/B"
 		elif self.frame.rb_rebotes.GetSelection() == 3:
-			self.mdlArt.rebote = "D/E"
+			reb = "R/D"
 		elif self.frame.rb_rebotes.GetSelection() == 4:
-			self.mdlArt.rebote = "ADC"
+			reb = "ADC"
 		else:
-			self.mdlArt.rebote = self.frame.tc_otros.GetValue()
-
-		self.mdlArt.update()
+			reb = self.frame.tc_otros.GetValue()
 		
  		# Guardar en caja.
-		self.mdlMovCli.mcam_anio = self.infoCaja['campAnio']
-		self.mdlMovCli.mcam_num = self.infoCaja['campNum']
-		self.mdlMovCli.mcaj_numero = self.infoCaja['numero']
+		cnum = self.infoCaja['numero']
+		monto = self.infoCli['deuda']
 
-		self.mdlMovCli.mcli_codigo = self.infoCli['codigo']
-		self.mdlMovCli.movcli_monto = self.infoCli['deuda']
+		self.mdlMovCli.mcaj_numero = cnum
+
+		if self.frame.cb_entregado.GetValue():
+			entr = 1
+		else:
+			entr = 0
 
 		if self.mdlMovCli.existe() == 0:
 
-			if self.frame.cb_entregado.GetValue():
-				self.mdlMovCli.movcli_entregado = 1
-			else:
-				self.mdlMovCli.movcli_entregado = 0
-
 			if self.frame.rb_efectivo.GetValue():
-				self.mdlMovCli.movcli_forma_pago = 1
-				self.mdlMovCli.movcli_diferencia = 0.0
+				dif = 0.0
 			elif self.frame.rb_boleta.GetValue():
-				self.mdlMovCli.movcli_forma_pago = 2
-				self.mdlMovCli.movcli_diferencia = float(self.frame.tc_boleta.GetValue())
+				dif = float(self.frame.tc_boleta.GetValue())
 			elif self.frame.rb_oficina.GetValue():
-				self.mdlMovCli.movcli_forma_pago = 3
-				self.mdlMovCli.movcli_diferencia = float(self.frame.tc_oficina.GetValue())
+				dif = float(self.frame.tc_oficina.GetValue())
 			else:
-				self.mdlMovCli.movcli_forma_pago = 0
-				self.mdlMovCli.movcli_diferencia = 0.0
+				dif = 0.0
 
-			self.mdlMovCli.create()
+			self.mdlMovCli.superCargaMov(anio, num, cnum, cod, reb, mentr, monto, entr, fpago, dif, fentr)
 		else:
-			if self.frame.cb_entregado.GetValue():
-				self.mdlMovCli.movcli_entregado = 1
-			else:
-				self.mdlMovCli.movcli_entregado = 0
-
-			self.mdlMovCli.update_e()
+			self.mdlMovCli.update_e(anio, num, cnum, cod, entr, fentr)
 			
 
 	def RbEfectivo(self, event):

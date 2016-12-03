@@ -49,10 +49,13 @@ BEGIN
 END$
 
 DROP PROCEDURE IF EXISTS actualizarEntrega$
-CREATE PROCEDURE actualizarEntrega(in anio int(4), in num int(4),in cnum int(4), in cod varchar(11), in entr tinyint(1))
+CREATE PROCEDURE actualizarEntrega(in anio int(4), in num int(4),in cnum int(4), in cod varchar(11), in entr tinyint(1), in fentr date)
 BEGIN
 	UPDATE movimiento_clientes SET movcli_entregado = entr
 	WHERE mcam_anio = anio AND mcam_num = num AND mcaj_numero = cnum AND mcli_codigo = cod;
+
+	UPDATE articulos SET art_entregado = fentr, art_medio_entr = 1
+	WHERE acam_anio = anio AND acam_num = num AND acli_codigo = cod;
 END$
 
 DROP PROCEDURE IF EXISTS actualizarMovCli$
@@ -62,4 +65,24 @@ BEGIN
 	WHERE mcam_anio = anio AND mcam_num = num AND mcaj_numero = cnum AND mcli_codigo = cod;
 END$
 
-DROP PROCEDURE IF EXISTS superCargaMovimiento(in anio int(4), in num int(4), in cnum int(4), in cod varchar, in entr tinyint(1), )
+DROP PROCEDURE IF EXISTS superCargaMovimiento$
+CREATE PROCEDURE superCargaMovimiento(
+in anio int(4), 
+in num int(4), 
+in cnum int(4),  
+in cod varchar(20),
+in reb varchar(120),
+in mentr tinyint(1), 
+in monto decimal(10, 2), 
+in entr tinyint(1), 
+in fpago tinyint(1), 
+in dif decimal(10, 2),
+in fentr date)
+BEGIN
+	UPDATE articulos 
+	SET art_forma_pago = fpago, art_medio_entr = mentr, art_entregado = fentr, art_rebote = reb
+	WHERE acam_anio = anio AND acam_num = num AND acli_codigo = cod;
+
+	INSERT INTO movimiento_clientes VALUES (anio, num, cnum, cod, monto, entr, fpago, dif); 
+
+END$

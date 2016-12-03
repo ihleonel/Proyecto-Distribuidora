@@ -62,7 +62,7 @@ class ControladorInformacion:
 			self.frame.rb_rebotes.SetSelection(1)
 		elif self.info['rebote'] == "S/B":
 			self.frame.rb_rebotes.SetSelection(2)
-		elif self.info['rebote'] == "D/E":
+		elif self.info['rebote'] == "R/D":
 			self.frame.rb_rebotes.SetSelection(3)
 		elif self.info['rebote'] == "ADC":
 			self.frame.rb_rebotes.SetSelection(4)
@@ -99,7 +99,7 @@ class ControladorInformacion:
 		elif self.frame.rb_rebotes.GetSelection() == 2:
 			self.mdlArt.rebote = "S/B"
 		elif self.frame.rb_rebotes.GetSelection() == 3:
-			self.mdlArt.rebote = "D/E"
+			self.mdlArt.rebote = "R/D"
 		elif self.frame.rb_rebotes.GetSelection() == 4:
 			self.mdlArt.rebote = "ADC"
 		else:

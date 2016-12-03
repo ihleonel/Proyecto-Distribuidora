@@ -2,7 +2,7 @@
 import MySQLdb
 
 class DBConn:
-
+    # 192.168.2.110
     def __init__(self, db_host='localhost', db_user='root', db_pass='root', db_name='distribuidoradb'):
         self.db_host = db_host
         self.db_user = db_user
