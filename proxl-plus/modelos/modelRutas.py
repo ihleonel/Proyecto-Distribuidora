@@ -52,9 +52,11 @@ class ModeloRutas:
 		query = "SELECT cli_orden, cli_codigo, cli_seccion, cli_apenom, \
 				(SELECT art_deuda FROM articulos WHERE acam_anio = %s and acam_num = %s and acli_codigo = cli_codigo) as deuda,\
 				cli_localidad, cli_domicilio, \
-				cli_telefono, cli_barrio, cli_referencia, rut_id, rut_nombre\
+				cli_telefono, cli_barrio, cli_referencia, rut_id, \
+				(SELECT alis_numero FROM articulos WHERE acam_anio = %s and acam_num = %s and acli_codigo = cli_codigo) as listado,\
+				rut_nombre\
 				FROM clientes\
 				INNER JOIN rutas ON crut_id = rut_id \
 				WHERE rut_orden = %s;"
-		values = (anio, num, self.rut_orden)
+		values = (anio, num, anio, num, self.rut_orden)
 		return self.db.ejecutar(query, values)

@@ -30,9 +30,12 @@ class ModeloListados:
 		query = "SELECT * FROM listados WHERE lcam_anio = %s AND lcam_num = %s AND lis_numero = %s"
 		values = (self.cam_anio, self.cam_num, self.numero)
 		tabla = self.db.ejecutar(query, values)
-		listado = {'numero': tabla[0][2], 
-				'fecha': self.date_format(tabla[0][3]), 
-				'comentario': tabla[0][4]}
+		if tabla:
+			listado = {'numero': tabla[0][2], 
+					'fecha': self.date_format(tabla[0][3]), 
+					'comentario': tabla[0][4]}
+		else:
+			listado = None
 		return listado
 
 	def read_all(self):

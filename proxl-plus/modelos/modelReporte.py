@@ -8,6 +8,7 @@ import xlwt, locale
 from modelos.modelArticulos import ModeloArticulos 
 from modelos.modelClientes import ModeloClientes
 from modelos.modelCampanias import ModeloCampanias
+from modelos.modelListados import ModeloListados
 from modelos.modelEnvios import ModeloEnvios
 from modelos.modelGastos import ModeloGastosVarios
 
@@ -159,8 +160,6 @@ class ModeloReporte:
 
 		wb.save(self.dir)
 
-
-
 class ModeloReporteDetalleCampania:
 
 	def __init__(self, contenido, dir):
@@ -259,6 +258,7 @@ class ModeloReporteRepartos:
 		wb = xlwt.Workbook(encoding='latin-1')
 		mdlArt = ModeloArticulos()
 		mdlCamp = ModeloCampanias()
+		mdlLis = ModeloListados()
 		
 		mdlArt.cam_anio = self.camp['anio']
 		mdlArt.cam_num = self.camp['numero']
@@ -332,6 +332,13 @@ class ModeloReporteRepartos:
 						ws.write(fila+3, 10, u"N/S")
 					elif dato[9] == 3:
 						ws.write(fila+3, 10, u"Lider")
+
+					mdlLis.cam_anio = self.camp['anio']
+					mdlLis.cam_num = self.camp['numero']
+					mdlLis.numero = dato[11]
+					lis = mdlLis.read()
+					if lis:
+						ws.write(fila+3, 11, lis['comentario'])
 				else:
 					ws.write(fila+3, 10, u"x")
 
