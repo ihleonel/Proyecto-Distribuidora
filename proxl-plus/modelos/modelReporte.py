@@ -314,7 +314,7 @@ class ModeloReporteRepartos:
 
 				mdlArt.cli_codigo = dato[1]
 				
-				hist = mdlArt.historial(5).split(',')[1:]
+				hist = mdlArt.historial(12).split(',')[1:]
 				cont = hist.count('A') + hist.count('S/B')
 				ws.write(fila+3, 9, cont)
 

@@ -47,12 +47,12 @@ class ControladorRepartos:
 			dir = dialog.GetPath() + nombreArchivo
 
 			mdlRepRep = ModeloReporteRepartos(mdlRut.rut_orden, self.camp, self.contenido ,dir)
-			try:
-				mdlRepRep.generar_reporte()
-			except:
-				wx.MessageBox("Ha ocurrido un error al generar reporte.", "Ups!")
-			else:
-				wx.MessageBox("El reporte ha sido generado con exito.", "Enhorabuena!")
+			#try:
+			mdlRepRep.generar_reporte()
+			#except:
+			#	wx.MessageBox("Ha ocurrido un error al generar reporte.", "Ups!")
+			#else:
+			#	wx.MessageBox("El reporte ha sido generado con exito.", "Enhorabuena!")
 
 		dialog.Destroy()
 
