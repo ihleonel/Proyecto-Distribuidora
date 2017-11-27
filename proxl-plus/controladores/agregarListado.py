@@ -88,6 +88,11 @@ class ControladorAgregarListado:
 				if not self.mdlCli.exist(): # el codigo de cliente existe?
 					nuevosCodigos += 1
 					self.mdlCli.create_short()
+					
+				# Actualizamos la localidad del cliente
+				self.mdlCli.localidad = datos['localidad']
+				self.mdlCli.new_update()
+
 				self.mdlArt.cli_codigo = datos['codigo']
 				self.mdlArt.deuda = float(datos['deuda'])
 				self.mdlArt.camp = datos['campania']

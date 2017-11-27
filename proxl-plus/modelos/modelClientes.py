@@ -56,6 +56,45 @@ class ModeloClientes:
 		values = (self.codigo, self.apenom, self.domicilio, self.telefonos, self.barrio, self.localidad, self.seccion, self.zona, self.descripcion, self.referencia, self.crut_id, self.orden)
 		return self.db.ejecutar(query, values)
 
+	def new_update(self):
+		if self.apenom:
+			query = "UPDATE clientes SET cli_apenom=%s WHERE cli_codigo=%s;" % (self.apenom, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.domicilio:
+			query = "UPDATE clientes SET cli_domicilio=%s WHERE cli_codigo=%s;" % (self.domicilio, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.telefonos:
+			query = "UPDATE clientes SET cli_telefono=%s WHERE cli_codigo=%s;" % (self.telefonos, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.barrio:
+			query = "UPDATE clientes SET cli_barrio=%s WHERE cli_codigo=%s;" % (self.barrio, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.localidad:
+			query = "UPDATE clientes SET cli_localidad=%s WHERE cli_codigo=%s;" 
+			values = (self.localidad, self.codigo)
+			self.db.ejecutar(query, values)
+
+		if self.seccion:
+			query = "UPDATE clientes SET cli_seccion=%s WHERE cli_codigo=%s;" % (self.seccion, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.zona:
+			query = "UPDATE clientes SET cli_zona=%s WHERE cli_codigo=%s;" % (self.zona, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.descripcion:
+			query = "UPDATE clientes SET cli_descripcion=%s WHERE cli_codigo=%s;" % (self.descripcion, self.codigo)
+			self.db.ejecutar(query)
+
+		if self.referencia:
+			query = "UPDATE clientes SET cli_referencia=%s WHERE cli_codigo=%s;" % (self.referencia, self.codigo)
+			self.db.ejecutar(query)
+
+
 	def read_all_for_code(self):
 		query = "SELECT cli_codigo, cli_apenom, cli_domicilio FROM clientes WHERE cli_estado = 1 AND cli_codigo LIKE %s"
 		value = (self.codigo+"%")

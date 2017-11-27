@@ -38,10 +38,11 @@ class ModeloReporte:
 		#Cargando encabezado
 		ws.write(0, 0, "ZONA")
 		ws.write(0, 1, u"CÓDIGO")
-		ws.write(0, 2, "CAMP")
-		ws.write(0, 3, "DEUDA")
-		ws.write(0, 4, "NO ENTR")
-		ws.write(0, 5, "BOLETA")
+		ws.write(0, 2, "LOCALIDAD")
+		ws.write(0, 3, "CAMP")
+		ws.write(0, 4, "DEUDA")
+		ws.write(0, 5, "NO ENTR")
+		ws.write(0, 6, "BOLETA")
 
 		#Cargando cuerpo de listado
 		self.mdlArt.cam_anio =  self.camp['anio']
@@ -49,42 +50,45 @@ class ModeloReporte:
 		tabla = self.mdlArt.obtenerContenidoCampania()
 
 		for i, fila in enumerate(tabla):
-			ws.write(i+1, 0, int(fila[0]))
-			ws.write(i+1, 1, str(fila[1]))
-			ws.write(i+1, 2, int(fila[2]))
-			ws.write(i+1, 3, float(fila[3]))
-			if str(fila[4]) == "None":	
-				ws.write(i+1, 4, "x")
-			else:
-				ws.write(i+1, 4, "")
-			if fila[5] == 2:
+			ws.write(i+1, 0, int(fila[0])) # Zona
+			ws.write(i+1, 1, str(fila[1])) # Codigo
+			ws.write(i+1, 2, str(fila[2])) # Localidad
+			ws.write(i+1, 3, int(fila[3])) # Camp
+			ws.write(i+1, 4, float(fila[4])) # Deuda
+
+			if str(fila[5]) == "None":	# No Entr
 				ws.write(i+1, 5, "x")
 			else:
 				ws.write(i+1, 5, "")
+
+			if fila[6] == 2:			# Boleta
+				ws.write(i+1, 6, "x")
+			else:
+				ws.write(i+1, 6, "")
 
 		# Cargando pie de reporte (formulas)
 		cantFilas = len(tabla)
 
 		ws.write(cantFilas+5, 1, "Total en $")
 
-		valArticulosCampania = 'SUM(D1:D%s)' % (cantFilas+1)
+		valArticulosCampania = 'SUM(E1:E%s)' % (cantFilas+1)
 		ws.write(cantFilas+5, 3, xlwt.Formula(valArticulosCampania))
 
-		valArticulosNoEntregados = 'SUMIF(E1:E%s;"x";D1:D%s)' % (cantFilas+1, cantFilas+1)
+		valArticulosNoEntregados = 'SUMIF(F1:F%s;"x";E1:E%s)' % (cantFilas+1, cantFilas+1)
 		ws.write(cantFilas+5, 4, xlwt.Formula(valArticulosNoEntregados))
 
-		valArticulosBoletas = 'SUMIF(F1:F%s;"x";D1:D%s)' % (cantFilas+1, cantFilas+1)
+		valArticulosBoletas = 'SUMIF(G1:G%s;"x";E1:E%s)' % (cantFilas+1, cantFilas+1)
 		ws.write(cantFilas+5, 5, xlwt.Formula(valArticulosBoletas))
 
 		ws.write(cantFilas+7, 1, u"Total en códigos")
 
-		cantArticulosCampania = 'COUNT(D1:D%s)' % (cantFilas+1)
+		cantArticulosCampania = 'COUNT(E1:E%s)' % (cantFilas+1)
 		ws.write(cantFilas+7, 3, xlwt.Formula(cantArticulosCampania))
 
-		cantArticulosNoEntregados = 'COUNTIF(E1:E%s;"x")' % (cantFilas+1)
+		cantArticulosNoEntregados = 'COUNTIF(F1:F%s;"x")' % (cantFilas+1)
 		ws.write(cantFilas+7, 4, xlwt.Formula(cantArticulosNoEntregados))
 
-		cantArticulosBoletas = 'COUNTIF(F1:F%s;"x")' % (cantFilas+1)
+		cantArticulosBoletas = 'COUNTIF(G1:G%s;"x")' % (cantFilas+1)
 		ws.write(cantFilas+7, 5, xlwt.Formula(cantArticulosBoletas))
 
 		ws.write(cantFilas+9, 0, "FECHA DE INICIO DE REPARTO")

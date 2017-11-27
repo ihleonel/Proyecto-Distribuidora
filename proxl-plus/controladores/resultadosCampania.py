@@ -154,12 +154,12 @@ class ControladorResultadoCampania:
 			
 			dir = dir + nombreArchivo
 			mdlRep = ModeloReporte(dir, self.camp)
-			try:
-				mdlRep.generar_libro()
-			except:
-				wx.MessageBox("Ha ocurrido un error al generar reporte.", "Ups!")
-			else:
-				wx.MessageBox("El reporte ha sido generado con exito.", "Enhorabuena!")
+			#try:
+			mdlRep.generar_libro()
+			#except:
+			#	wx.MessageBox("Ha ocurrido un error al generar reporte.", "Ups!")
+			#else:
+			#	wx.MessageBox("El reporte ha sido generado con exito.", "Enhorabuena!")
 
 		dialog.Destroy()
 

@@ -30,8 +30,9 @@ class ModeloXLCodigos:
 				contenido = {}
 				fila = self.Hoja.row(i)
 				contenido["codigo"] = fila[1].value.strip()
-				contenido["campania"] = str(int(fila[2].value))
-				contenido["deuda"] = fila[3].value
+				contenido["localidad"] = fila[2].value.strip()
+				contenido["campania"] = str(int(fila[3].value))
+				contenido["deuda"] = fila[4].value
 
 				listado.append(contenido)
 		return listado

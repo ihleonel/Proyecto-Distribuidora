@@ -175,7 +175,7 @@ class ModeloArticulos:
 		return resultado
 
 	def obtenerContenidoCampania(self):
-		query = "SELECT cli_zona, cli_codigo, art_camp, art_deuda, art_entregado, art_forma_pago \
+		query = "SELECT cli_zona, cli_codigo, cli_localidad, art_camp, art_deuda, art_entregado, art_forma_pago \
 				FROM articulos INNER JOIN clientes ON cli_codigo = acli_codigo\
 				WHERE acam_anio = %s AND acam_num = %s\
 				ORDER BY 2;"
